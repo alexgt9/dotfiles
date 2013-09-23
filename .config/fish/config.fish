@@ -7,3 +7,7 @@ function git_current_branch -d 'Prints a human-readable representation of the cu
     return 0
   end
 end
+
+function sudo!!
+    eval sudo $history[2]
+end
