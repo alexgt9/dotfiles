@@ -20,3 +20,7 @@ alias ..... 'cd ../../../..'
 #PHP
 
 alias pa 'php -a'
+
+#GO Lang
+
+alias gor 'go run'
