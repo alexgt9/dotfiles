@@ -1,3 +1,6 @@
+[user]
+        name = Alejandro Perez
+        email = alexgt9@gmail.com
 [alias]
         last = cat-file commit HEAD
         co = checkout
@@ -8,3 +11,5 @@
 	hist = log --oneline --decorate --graph --all
 [color]
         ui = true
+[help]
+	autocorrect = 1
