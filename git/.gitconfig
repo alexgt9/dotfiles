@@ -1,0 +1,30 @@
+# This is Git's per-user configuration file.
+[user]
+    name = Alejandro Perez
+    email = alexgt9@gmail.com
+
+[alias]
+    last = cat-file commit HEAD
+    co = checkout
+    ds = diff --staged
+    undo = reset --soft HEAD^
+    standup = log --since '1 day ago' --oneline --author alexgt9@gmail.com
+    latest = for-each-ref --sort=-committerdate --format='%(committerdate:short) %(refname:short) [%(committername)]'
+    hist = log --oneline --decorate --graph --all
+    amend = commit --amend --no-edit
+    ap = add -p
+
+    # Remove branches that have already been merged with master
+# a.k.a. ‘delete merged’
+    dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+
+[fetch]
+    prune = true
+[merge]
+    ff = only
+[push]
+    followTags = true
+[status]
+    showUntrackedFiles = all
+[rebase]
+    autosquash = true
