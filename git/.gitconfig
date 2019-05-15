@@ -23,6 +23,7 @@
 [merge]
     ff = only
 [push]
+    default = current
     followTags = true
 [status]
     showUntrackedFiles = all
