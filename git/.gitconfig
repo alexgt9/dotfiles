@@ -13,6 +13,7 @@
     hist = log --oneline --decorate --graph --all
     amend = commit --amend --no-edit
     ap = add -p
+    pf = push --force-with-lease
 
     # Remove branches that have already been merged with master
 # a.k.a. ‘delete merged’
