@@ -5,6 +5,7 @@ tap "homebrew/core"
 tap "homebrew/php"
 tap "homebrew/versions"
 
+brew awscli
 # Dependency Manager for PHP
 brew "composer"
 

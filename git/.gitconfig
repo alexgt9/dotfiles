@@ -14,6 +14,7 @@
     amend = commit --amend --no-edit
     ap = add -p
     pf = push --force-with-lease
+    cb = checkout -b
 
     # Remove branches that have already been merged with master
 # a.k.a. ‘delete merged’
@@ -30,3 +31,5 @@
     showUntrackedFiles = all
 [rebase]
     autosquash = true
+[rerere]
+    enabled = 1
