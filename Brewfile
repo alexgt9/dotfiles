@@ -8,7 +8,6 @@ brew "composer"
 brew "docker"
 brew "git"
 brew "php"
-
 brew "zsh"
 
 brew "cask"
