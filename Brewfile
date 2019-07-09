@@ -2,27 +2,21 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "homebrew/php"
-tap "homebrew/versions"
 
-brew awscli
-# Dependency Manager for PHP
+brew "awscli"
 brew "composer"
-
-brew docker
-# Distributed revision control system
+brew "docker"
 brew "git"
-# General-purpose scripting language
-brew "php@7.1"
+brew "php"
 
-# UNIX shell (command interpreter)
-brew zsh
+brew "zsh"
 
-brew install cask
-cask postman
-cask sequel-pro
-cask slack
-cask spotify
-cask sublime-text
-cask tunnelblick
-
+brew "cask"
+cask "google-chrome"
+cask "iterm2"
+cask "postman"
+cask "sequel-pro"
+cask "slack"
+cask "spotify"
+cask "sublime-text"
+cask "tunnelblick"
